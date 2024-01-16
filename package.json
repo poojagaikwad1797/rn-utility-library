@@ -1,0 +1,26 @@
+{
+  "name": "rn-utility-library",
+  "version": "1.0.0",
+  "description": "My Utility Library is a lightweight collection of common utility functions for JavaScript, designed to simplify everyday tasks in your React Native projects.",
+  "main": "src/utilities.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poojagaikwad1797/rn-utility-library.git"
+  },
+  "keywords": [
+    "utilities",
+    "common",
+    "helper",
+    "javascript",
+    "library"
+  ],
+  "author": "Pooja Gaikwad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poojagaikwad1797/rn-utility-library/issues"
+  },
+  "homepage": "https://github.com/poojagaikwad1797/rn-utility-library#readme"
+}
