@@ -30,8 +30,24 @@ function toTitleCase(str) {
   });
 }
 
+
+/**
+ * Format a date to a user-friendly string.
+ * @param {Date} date - The input date.
+ * @returns {string} - The formatted date string.
+ */
+
+function formatDate(date) {
+  const day = date.getDate();
+  const month = date.toLocaleString("default", { month: "long" });
+  const year = date.getFullYear();
+  return `${month} ${day},${year}`;
+}
+
+
 module.exports = {
   isEven,
   getRandomNumber,
   toTitleCase,
+  formatDate,
 };
