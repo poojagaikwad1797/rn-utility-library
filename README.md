@@ -17,7 +17,7 @@ These functions are crafted to be versatile and easy to integrate into your proj
 ## Installation
 
 ```bash
-npm install my-utility-library
+npm install rn-utility-library
 ```
 
 ## Usage
